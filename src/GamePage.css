@@ -1,0 +1,64 @@
+ 
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header-logo {
+	background-image: url(./assets/star_wars_logo_small.png) !important;
+	background-color: #000;
+    height: 70px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+}
+ 
+body {
+  background-image: url(./assets/background_left.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.star-background {
+	background-image: url(./assets/card_background.jpg) !important;
+	background-size: cover;
+    height: 600px;
+}
+
+.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: transparent !important;
+    transition: none;
+    border-radius: 2px;
+    box-shadow: none !important;
+}
+
+.card .card-content .card-title {
+    background-color: #418fcb;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.card .card-action {
+    background-color: #418fcb;
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    margin: 16px 24px;
+}
+
+.cardAttr {
+	color: #fff !important;
+}
+
+.btn {
+	background-color: #418fcb;
+}
+
+.btn:hover {
+	background-color: #eb413e;
+}
