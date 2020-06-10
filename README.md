@@ -1,1 +1,1 @@
-# my-kind-top-trumps
+# game-top-trumps
